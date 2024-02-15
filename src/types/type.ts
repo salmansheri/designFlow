@@ -186,7 +186,7 @@ export type CursorChatProps = {
     presence: Partial<{
       cursor: { x: number; y: number };
       cursorColor: string;
-      message: string;
+      message?: string;
     }>,
   ) => void;
 };
